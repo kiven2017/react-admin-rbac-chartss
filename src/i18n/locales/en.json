@@ -1,0 +1,20 @@
+{
+  "nav": "Navigation",
+  "login.title": "Sign in to AI Oracle Admin",
+  "login.role": "Role",
+  "login.email": "Email",
+  "login.password": "Password",
+  "login.button": "Sign in",
+  "header.logout": "Logout",
+  "no.data": "No data",
+  "actions.export": "Export",
+  "actions.create": "Create",
+  "form.save": "Save",
+  "form.cancel": "Cancel",
+  "error.boundary.title": "Something went wrong",
+  "error.boundary.retry": "Reload",
+  "refresh.off": "Refresh Off",
+  "refresh.every": "Refresh every",
+  "refresh.s": "s",
+  "chart.metrics": "Metric Charts"
+}

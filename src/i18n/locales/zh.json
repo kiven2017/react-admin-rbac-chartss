@@ -1,0 +1,20 @@
+{
+  "nav": "导航",
+  "login.title": "登录 AI Oracle Admin",
+  "login.role": "角色",
+  "login.email": "邮箱",
+  "login.password": "密码",
+  "login.button": "登录",
+  "header.logout": "退出",
+  "no.data": "暂无数据",
+  "actions.export": "导出",
+  "actions.create": "新增",
+  "form.save": "保存",
+  "form.cancel": "取消",
+  "error.boundary.title": "页面出错了",
+  "error.boundary.retry": "刷新重试",
+  "refresh.off": "关闭刷新",
+  "refresh.every": "刷新间隔",
+  "refresh.s": "秒",
+  "chart.metrics": "指标图表"
+}
