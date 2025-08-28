@@ -101,7 +101,7 @@ export default function App() {
 }
 
 const items = [
-  { text: "1. · 系统健康总览", route: "/1/系统健康总览" },
+  { text: "1. · 系统健康总览", route: "/1/系统健康总览1" },
   { text: "1. · 链上状态监控", route: "/1/链上状态监控" },
   { text: "1. · 设备状态统计", route: "/1/设备状态统计" },
   { text: "1. · 性能指标可视化", route: "/1/性能指标可视化" },
