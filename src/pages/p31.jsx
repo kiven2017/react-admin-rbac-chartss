@@ -21,7 +21,9 @@ export default function P31() {
   return (
     <div className='space-y-4'>
       <div className='flex items-center justify-between'>
-        <div><h1 className='text-2xl font-semibold'>性能监控</h1><p className='text-muted text-sm'>延迟<500ms、吞吐量>1000 TPS、可用性99.9%</p></div>
+        <div><h1 className='text-2xl font-semibold'>性能监控</h1>
+<p className='text-muted text-sm'>延迟&lt;500ms、吞吐量&gt;1000 TPS、可用性99.9%</p>
+</div>
         <div className='flex items-center gap-2'>
           <label className='text-sm text-muted'>刷新间隔</label>
           <select className='select' value={intervalSec} onChange={e=>setIntervalSec(Number(e.target.value))}>
