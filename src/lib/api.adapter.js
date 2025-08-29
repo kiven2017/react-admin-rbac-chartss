@@ -1,19 +1,3 @@
-import reg from './api.registry.json'
-import { apiFetch } from './apiClient'
-
-export async function listByFeature(featureSlug) {
-  const path = (reg[featureSlug] && reg[featureSlug]['GET']) || null
-  if (!path) return []
-  const data = await apiFetch(path, { method: 'GET' })
-  if (Array.isArray(data)) return data
-  if (data?.items) return data.items
-  if (data?.data) return data.data
-  return []
-}
-
-export async function createByFeature(featureSlug, payload) {
-  const path = (reg[featureSlug] && reg[featureSlug]['POST']) || null
-  if (!path) return { ok: false, message: 'No POST endpoint' }
-  const res = await apiFetch(path, { method: 'POST', body: payload })
-  return res
-}
+import reg from './api.registry.json'; import { apiFetch } from './apiClient'
+export async function listByFeature(featureSlug){ const path=(reg[featureSlug]&&reg[featureSlug]['GET'])||null; if(!path) return []; const data=await apiFetch(path,{method:'GET'}); if(Array.isArray(data)) return data; if(data?.items) return data.items; if(data?.data) return data.data; return [] }
+export async function createByFeature(featureSlug,payload){ const path=(reg[featureSlug]&&reg[featureSlug]['POST'])||null; if(!path) return {ok:false,message:'No POST endpoint'}; const res=await apiFetch(path,{method:'POST',body:payload}); return res }
