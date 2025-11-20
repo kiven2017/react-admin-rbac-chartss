@@ -4,7 +4,7 @@ import { useAuth } from '../../auth/AuthContext'
 import { loginRequest } from '../../lib/apiClient'
 export default function Login(){
   const {value}=useAuth()
-  const [email,setEmail]=useState('admin@aioracle.link')
+  const [email,setEmail]=useState('info@AIOracle.link')
   const [role,setRole]=useState('admin')
   const [password,setPassword]=useState('')
   const [manualToken,setManualToken]=useState('')
